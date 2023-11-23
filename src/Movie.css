@@ -1,0 +1,7 @@
+#name{
+    font-weight: bold;
+}
+#movie-container{
+    display: flex;
+    align-items: center;
+}
