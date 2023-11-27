@@ -1,7 +1,22 @@
-#name{
-    font-weight: bold;
-}
 #movie-container{
     display: flex;
     align-items: center;
+    padding: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #eeeeee;
+}
+#name{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+p{
+    color: #808080;
+    font-size: 17px;
+    margin: 8px 0 8px 0;
+}
+#poster{
+    width: 120px;
+    margin-right: 15px;
 }

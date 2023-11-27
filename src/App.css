@@ -2,3 +2,47 @@
 *{
   font-family: 'Roboto';
 }
+#main-container{
+  display: flex;
+  flex-direction: column;
+}
+#illustration-1, #illustration-2{
+  width: 170px;
+}
+#illustration-1{
+  transform: scaleX(-1);
+}
+#new-entry-container{
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: fit-content;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px 0 40px;
+}
+button{
+  background-color: rgb(116, 187, 23);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width:fit-content;
+  padding: 10px;
+  margin: 3px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+button:hover{
+  background-color: rgb(93, 148, 20);
+}
+.input-field{
+  outline: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 3px;
+  width: 300px;
+}
